@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask App</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- this script is for playing sound -->
+    <script src='https://cdn.rawgit.com/admsev/jquery-play-sound/master/jquery.playSound.js'></script>
+
+    <style>
+        body {
+            background-color: rgb(38, 41, 48);
+        }
+        h1 {
+            margin-top: 1em;
+        }
+        a {
+            color: #fff;
+        }
+        a.active {
+            background-color: #1997c6 !important;
+        }
+        #left-bar {
+            margin-top: 8em;
+            margin-left: 5em;
+        }
+        #right-bar {
+            margin-top: 3em;
+            margin-left: 2em;
+        }
+        #state-chart {
+            margin-top: 3em;
+        }
+        img {
+            border-radius: 25%;
+            height: 100px;
+            margin: 1em;
+        }
+        p {
+            color: white;
+        }
+        #candidates { margin-top: 3em;}
+
+        img:hover {
+            transition: .25s;
+            cursor: pointer;
+        }
+        #rock:hover {
+            box-shadow: 0px 0px 50px 10px rgba(218, 56, 73, 0.67);
+        }
+        #oprah:hover {
+            box-shadow: 0px 0px 50px 10px rgba(21, 126, 251, 0.67);
+        }
+        #kanye:hover {
+            box-shadow: 0px 0px 50px 10px rgba(48, 186, 74, 0.67);
+        }
+    </style>
+
+</head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2" id="left-bar">
+                <h6 class="text-secondary">Dashboards</h6>
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a href="#" class="nav-link active" id="v-pills-home-tab" data-toggle="pill" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                    <a href="#" class="nav-link" id="v-pills-profile-tab" data-toggle="pill" role="tab" aria-controls="v-pills-profile" aria-selected="true">Profile</a>
+                    <a href="#" class="nav-link" id="v-pills-messages-tab" data-toggle="pill" role="tab" aria-controls="v-pills-messages" aria-selected="true">Messages</a>
+                    <a href="#" class="nav-link" id="v-pills-settings-tab" data-toggle="pill" role="tab" aria-controls="v-pills-settings" aria-selected="true">Settings</a>
+                </div>
+            </div>
+            <div class="col-md-8" id="right-bar">
+                <p class="h6 text-secondary">DASHBOARDS</p>
+                <p class="h1 text-white">Trolection 2020 🇺🇸</p>
+
+                <div id="candidates" class="text-center row">
+                    <div>
+                        <p>The Rock</p>
+                        <img id="rock" class="z-depth-5" src="./static/the_rock.jpg" alt="the rock">
+                    </div>
+                    <div>
+                        <p>Oprah</p>
+                        <img id="oprah" class="hoverable" src="./static/oprah.jpg" alt="oprah">
+                    </div>
+                    <div>
+                        <p>Kanye</p>
+                        <img id="kanye" src="./static/kanye.jpg" alt="kanye">
+                    </div>
+
+                </div>
+
+                <div id="state-chart" class="col-sm-8">
+                    <ul class="text-center list-group">
+                        <li class="list-group-item list-group-item-dark"><span class="h4">States</span></li>
+                        <li class="list-group-item list-group-item-dark">
+                            Alaska
+                            <div class="progress bg-danger">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 10%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">10%</div>
+                                <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">30%</div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            Washington
+                            <div class="progress bg-danger">
+                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            Oregon
+                            <div class="progress bg-danger">
+                                <div class="progress-bar" role="progressbar" style="width: 64%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">64%</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            California
+                            <div class="progress bg-danger">
+                                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">85%</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            Arizona
+                            <div class="progress bg-danger">
+                                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">40%</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+
+        <script>
+            $('#rock').mouseover(function() {
+                $.playSound("./static/doyousmell.mp3");
+            });
+
+            $('#oprah').mouseover(function() {
+                $.playSound("./static/yougetacar.mp3");
+            });
+
+            $('#kanye').mouseover(function() {
+                $.playSound("./static/golddigger.mp3");
+            });
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
