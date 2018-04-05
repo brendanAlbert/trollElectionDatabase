@@ -1,5 +1,5 @@
 # trollElectionDatabase
-# more effectionately known as *Trolection 2020*
+# more affectionately known as *Trolection 2020*
 
 ![version 1](https://github.com/brendanAlbert/trollElectionDatabase/blob/master/v1.png)
 
