@@ -1,0 +1,16 @@
+{
+    "candidates" : [
+        {
+            "name": "Dwayne \"The Rock\" Johnson",
+            "party": "Republican"
+        },
+        {
+            "name": "Oprah Winfrey",
+            "party": "Democrat"
+        },
+        {
+            "name": "Kanye West",
+            "party": "Democrat"
+        }
+    ]
+}

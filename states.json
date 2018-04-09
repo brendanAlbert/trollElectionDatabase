@@ -1,0 +1,514 @@
+{
+   "states":  {
+        "Alabama" : {
+            "state_id" : 1,
+            "name" : "Alabama",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Alaska" : {
+            "state_id" : 2,
+            "name" : "Alaska",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Arizona" : {
+            "state_id" : 3,
+            "name" : "Arizona",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Arkansas" : {
+            "state_id" : 4,
+            "name" : "Arkansas",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "California" : {
+            "state_id" : 5,
+            "name" : "California",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Colorado" : {
+            "state_id" : 6,
+            "name" : "Colorado",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Connecticut" : {
+            "state_id" : 7,
+            "name" : "Connecticut",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Delaware" : {
+            "state_id" : 8,
+            "name" : "Delware",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "District of Columbia" : {
+            "state_id" : 9,
+            "name" : "District of Columbia",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Florida" : {
+            "state_id" : 10,
+            "name" : "Florida",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Georgia" : {
+            "state_id" : 11,
+            "name" : "Georgia",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Hawaii" : {
+            "state_id" : 12,
+            "name" : "Hawaii",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Idaho" : {
+            "state_id" : 13,
+            "name" : "Idaho",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Illinois" : {
+            "state_id" : 14,
+            "name" : "Illinois",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Indiana" : {
+            "state_id" : 15,
+            "name" : "Indiana",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Iowa" : {
+            "state_id" : 16,
+            "name" : "Iowa",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Kansas" : {
+            "state_id" : 17,
+            "name" : "Kansas",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Kentucky" : {
+            "state_id" : 18,
+            "name" : "Kentucky",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Louisiana" : {
+            "state_id" : 19,
+            "name" : "Louisiana",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Maine" : {
+            "state_id" : 20,
+            "name" : "Maine",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Maryland" : {
+            "state_id" : 21,
+            "name" : "Maryland",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Massachusetts" : {
+            "state_id" : 22,
+            "name" : "Massachusetts",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Michigan" : {
+            "state_id" : 23,
+            "name" : "Michigan",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Minnesota" : {
+            "state_id" : 24,
+            "name" : "Minnesota",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Mississippi" : {
+            "state_id" : 25,
+            "name" : "Mississippi",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Missouri" : {
+            "state_id" : 26,
+            "name" : "Missouri",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Montana" : {
+            "state_id" : 27,
+            "name" : "Montana",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Nebraska" : {
+            "state_id" : 28,
+            "name" : "Nebraska",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Nevada" : {
+            "state_id" : 29,
+            "name" : "Nevada",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "New Hampshire" : {
+            "state_id" : 30,
+            "name" : "New Hampshire",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "New Jersey" : {
+            "state_id" : 31,
+            "name" : "New Jersey",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "New Mexico" : {
+            "state_id" : 32,
+            "name" : "New Mexico",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "New York" : {
+            "state_id" : 33,
+            "name" : "New York",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "North Carolina" : {
+            "state_id" : 34,
+            "name" : "North Carolina",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "North Dakota" : {
+            "state_id" : 35,
+            "name" : "North Dakota",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Ohio" : {
+            "state_id" : 36,
+            "name" : "Ohio",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Oklahoma" : {
+            "state_id" : 37,
+            "name" : "Oklahoma",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Oregon" : {
+            "state_id" : 38,
+            "name" : "Oregon",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Pennsylvania" : {
+            "state_id" : 39,
+            "name" : "Pennsylvania",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Rhode Island" : {
+            "state_id" : 40,
+            "name" : "Rhode Island",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "South Carolina" : {
+            "state_id" : 41,
+            "name" : "South Carolina",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "South Dakota" : {
+            "state_id" : 42,
+            "name" : "South Dakota",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Tennessee" : {
+            "state_id" : 43,
+            "name" : "Tennessee",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Texas" : {
+            "state_id" : 44,
+            "name" : "Texas",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Utah" : {
+            "state_id" : 45,
+            "name" : "Utah",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Vermont" : {
+            "state_id" : 46,
+            "name" : "Vermont",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Virginia" : {
+            "state_id" : 47,
+            "name" : "Virginia",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Washington" : {
+            "state_id" : 48,
+            "name" : "Washington",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "West Virginina" : {
+            "state_id" : 49,
+            "name" : "West Virginia",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Wisconsin" : {
+            "state_id" : 50,
+            "name" : "Wisconsin",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        },
+        "Wyoming" : {
+            "state_id" : 51,
+            "name" : "Wyoming",
+            "election_date" : "3-3-20",
+            "republican_delegates" : 172,
+            "democratic_delegates" : 546,
+            "registered_republicans" : 5225675,
+            "registered_democrats" : 7932373,
+            "partial_winnings" : true
+        }
+    }
+}

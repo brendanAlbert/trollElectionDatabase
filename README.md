@@ -8,6 +8,6 @@ Steps to run:
 2) You will need flask installed, so run this command in your terminal:
 $> ```pip3 install flask```
 3) Then, once that is done, run this command in your terminal to spin up the flask server:
-$> ```python3 app.py```
+$> ```python3 server.py```
 4) If all went well, your terminal should say ```Running on http://127.0.0.1:5000/```
   Click on that link it provides or navigate to it in your browser.

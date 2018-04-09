@@ -1,0 +1,6 @@
+{
+    "results": [
+        {"state_id": 31, "candidate_id": 1, "votes_received": 5000000, "delegates_awarded": 344},
+        {"state_id": 31, "candidate_id": 2, "votes_received": 2932373, "delegates_awarded": 202}
+    ]
+}
