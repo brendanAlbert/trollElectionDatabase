@@ -2,6 +2,7 @@
 # more affectionately known as *Trolection 2020*
 
 ![version 1](https://github.com/brendanAlbert/trollElectionDatabase/blob/master/v1.png)
+![version 2](https://github.com/brendanAlbert/trollElectionDatabase/blob/master/v2.png)
 
 Steps to run:
 1) Navigate, in the terminal, to the directory where you downloaded this repo.
