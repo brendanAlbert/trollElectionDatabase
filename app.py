@@ -306,8 +306,7 @@ def populate_state_table(cur):
         Populates the State table with data from a json file.
     """
     pass
-    # query = """
-    """
+    query = """
     INSERT INTO State(
         name TEXT,
         primary_or_caucus_date TEXT,
@@ -319,11 +318,16 @@ def populate_state_table(cur):
         ?, ?, ?, ?, ?, ?
     );
     """
-    # TODO
-    # get data from a json file
-    # this query will be executed 51 times, 50 states + D.C.
-    # for state in data_file:
-    # cur.execute(query, (,))
+
+    date = {}
+    with open('states.json') as f:
+        data = json.load(f)
+    for s in data['states']:
+        cur.execute(query, (
+        s['state_id'], s['name'], s['election_date'], s['republican_delegates'], s['democratic_delegates'],
+        s['registered_republicans'], s['registered_democrats'], s['partial_winnings']))
+    conn.commit()
+    print("State table successfully populated!")
 
 
 def get_dict_load_json_from_file():
