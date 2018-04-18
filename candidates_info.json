@@ -1,0 +1,32 @@
+{
+    "candidates" : [
+        {
+            "name": "Dwayne \"The Rock\" Johnson",
+            "party": "Republican",
+            "total_votes":0,
+            "delegate_tally":0,
+            "age":45,
+            "sex": "M",
+            "phone_number": "310-285-9000"
+
+        },
+        {
+            "name": "Oprah Winfrey",
+            "party": "Democrat",
+            "total_votes":0,
+            "delegate_tally":0,
+            "age":64,
+            "sex": "F",
+            "phone_number": "323-602-5500"
+        },
+        {
+            "name": "Kanye West",
+            "party": "Democrat",
+            "total_votes":0,
+            "delegate_tally":0,
+            "age":40,
+            "sex": "M",
+            "phone_number": "661-748-0240"
+        }
+    ]
+}
