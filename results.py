@@ -110,7 +110,7 @@ def insert_result(curr, conn, state_name, candidate_name, votes):
     """.format(id[0], id[1], votes)
     curr.execute(cmd)
 
-    calc_delegates(curr, id[0], id[1])
+    calc_delegates(curr, id[0], id[1], True)
     conn.commit()
 
 def find_ids(curr, state_name, candidate_name):
@@ -140,13 +140,16 @@ def find_ids(curr, state_name, candidate_name):
     c_id = curr.fetchall()[0]
     return s_id[0], c_id[0]
 
-def calc_delegates(curr, state_id, candidate_id):
+def calc_delegates(curr, state_id, candidate_id, is_it_entering):
     """
     This function will first check if all entries for this party in this state have been entered.
     If they haven't, it will return. If they have, it will call update_delegates for the entries in that state.
 
     Param:  curr, a cursor to a database connection object
             state_id, INTEGER representing the state id of the current state entering primary results
+            candidate_id, INTEGER ID of candidate we are entering results for
+            is_it_entering, BOOL that will keep track of what called this function. Is this called by a function entering
+                            results or deleting them? True = entering, False = deleting
     """
     # what is this candidate's party?
     get_party = """
@@ -173,9 +176,9 @@ def calc_delegates(curr, state_id, candidate_id):
     current_count = curr.fetchall()
 
     if (current_count[0] == party_count):
-        award(curr, state_id, party)
+        award(curr, state_id, party, is_it_entering)
 
-def award(curr, state_id, party):
+def award(curr, state_id, party, is_it_entering):
     """
     Calculates award after all votes for a state primary have been submitted. Updates results and candidate delegate count.
 
@@ -185,6 +188,11 @@ def award(curr, state_id, party):
     """
     # find amount of delegates that state can award for this party.
     delegates = award_amount(curr, state_id, party)
+
+    # check if is_it_entering == False. If it is, we need to take away delegates, not reward them.
+    if not is_it_entering:
+        delegates = 0 - delegates
+
 
     # first, figure out if state allows partial awards and how many delegates it awards
     if (check_award(curr, state_id)):
@@ -221,7 +229,7 @@ def award(curr, state_id, party):
             delegate_list.append((float(vote[0])/float(vote_sum)) * float(delegates))
 
         for id, delegate in zip(ids, delegate_list):
-            update_delegates(curr, id[0], state_id, delegate)
+            update_delegates(curr, id[0], state_id, delegate, is_it_entering)
 
     else:
         # winner take all. Give all delegates to the candidate with the most votes from that state.
@@ -234,9 +242,9 @@ def award(curr, state_id, party):
         curr.execute(cmd)
         state_party_winner = curr.fetchall()
         # call a function to change the winner's delegate count in TWO places (candidate table and results table)
-        update_delegates(curr, state_party_winner[0], state_id, delegates)
+        update_delegates(curr, state_party_winner[0], state_id, delegates, is_it_entering)
 
-def update_delegates(curr, candidate_id, state_id, delegates):
+def update_delegates(curr, candidate_id, state_id, delegates, is_it_entering):
     """
     Updates delegate count for both the results table and for the candidate total tally.
 
@@ -254,7 +262,12 @@ def update_delegates(curr, candidate_id, state_id, delegates):
     current_count = curr.fetchall()[0]
     new_count = current_count[0] + delegates
     new_count = int(round(new_count))
-    delegates = int(round(delegates))
+
+    # Now we make sure delegates is an integer if entering a row, and make it 0 if we are deleting a row
+    if is_it_entering:
+        delegates = int(round(delegates))
+    else:
+        delegates = 0
 
     cmd = """
     UPDATE Results
@@ -581,7 +594,46 @@ def look_up_delegate_tally (curr, id):
     curr.execute(cmd)
     return curr.fetchall()[0][0]
 
+###################################################### END OF DISPLAY/LOOKUP FUNCTIONS #######################
 # make method to delete data
+# if I delete a row I need to substract the amount of delegates and votes added from when I inserted that row
+def delete_result_row (curr, conn, state_name, candidate_name):
+    """
+    This function deletes a row in the Result Table. It also updates the delegates awarded and the votes awarded to candidates if
+    The delete will affect that information.
+
+    Param:  curr, cursor to a connection object to a database
+            conn, a connection object to a database
+            state_name, TEXT name of the state with information to delete
+            candidate_name, TEXT name of the candidate with information to delete.
+    """
+    # basically do all of the steps in the insert function but reversed.
+    # first check if that state has all of it's entries in. if it does, then we will need to reset delegates awarded.
+    # id = a tuple with state_id, candidate_id
+    id = find_ids(curr, state_name, candidate_name)
+
+    # Find votes in entry
+    get_votes = """
+    SELECT votes_received FROM Results
+    WHERE candidate_id = {} AND state_id = {}
+    """.format(id[1], id[0])
+    curr.execute(get_votes)
+    votes = curr.fetchall()[0][0]
+    # we need the negative of this for updating
+    votes = 0 - votes
+
+    # update votes for candidate total
+    update_total_votes(curr, id[1], votes)
+    # update delegates for everything this effects (if all results are currently in for this primary)
+    calc_delegates(curr, id[0], id[1], False)
+
+    # Now delete the row.
+    cmd = """
+    DELETE FROM Results
+    WHERE state_id = {} AND candidate_id = {}
+    """.format(id[0], id[1])
+    curr.execute(cmd)
+    conn.commit()
 
 # make method to edit data
 
@@ -609,6 +661,9 @@ def main():
     print(look_up_total_votes_by_name(curr, "Oprah Winfrey"))
     print(look_up_total_votes_by_id (curr, 1))
     print(look_up_delegate_tally (curr, 1))
+    ### testing delete ####
+    delete_result_row (curr, conn, "CA", "Oprah Winfrey")
+    insert_result(curr, conn, "WA", "The Rock", 800)
 
 if __name__ == "__main__":
     main()
