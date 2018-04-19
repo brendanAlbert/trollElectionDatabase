@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1f88b01-742a-4b99-a22c-1b415f71c309" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
       <change beforePath="$PROJECT_DIR$/venv/states.py" afterPath="$PROJECT_DIR$/venv/states.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +38,8 @@
             <file leaf-file-name="states.py" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/venv/states.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="660">
-                    <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+                  <state relative-caret-position="484">
+                    <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
                     <folding />
                   </state>
                 </provider>
@@ -329,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524108329772</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="states.py has functions to fiddle with the states table.">
+      <created>1524109271388</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524109271388</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -380,7 +386,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit of python flask app for learning sqlite database manipulation.  We bring you, Trolection 2020." />
     <MESSAGE value="bugfix in populate_state_table()" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugfix in populate_state_table()" />
+    <MESSAGE value="states.py has functions to fiddle with the states table." />
+    <option name="LAST_COMMIT_MESSAGE" value="states.py has functions to fiddle with the states table." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -745,8 +752,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/states.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="484">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>

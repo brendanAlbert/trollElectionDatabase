@@ -20,6 +20,7 @@ def add_state(conn, curr, name, primary_date, republican_electors, democratic_el
 
 def delete_state(conn, curr, state_to_delete):
     curr.execute("""DELETE FROM State WHERE name=?""", state_to_delete)
+    conn.commit()
 
 
 def update_state(conn, curr, name_of_state_to_modify, new_name, primary_date, republican_electors, democratic_electors,
