@@ -301,7 +301,7 @@ def populate_candidate_table(conn, cur):
     print("Candidate table successfully populated!")
 
 
-def populate_state_table(cur):
+def populate_state_table(cur, conn):
     """
         Populates the State table with data from a json file.
     """
