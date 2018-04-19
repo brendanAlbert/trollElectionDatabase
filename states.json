@@ -1,514 +1,514 @@
 {
-   "states":  {
-        "Alabama" : {
-            "state_id" : 1,
-            "name" : "Alabama",
-            "election_date" : "6-5-18",
-            "republican_delegates" : 50,
-            "democratic_delegates" : 58,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+    "states": [
+        {
+        "state_id": 1,
+        "name": "Alabama",
+        "election_date": "18-6-5",
+        "republican_delegates": 50,
+        "democrat_delegates": 58,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Alaska" : {
-            "state_id" : 2,
-            "name" : "Alaska",
-            "election_date" : "8-21-18",
-            "republican_delegates" : 28,
-            "democratic_delegates" : 18,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 2,
+        "name": "Alaska",
+        "election_date": "18-8-21",
+        "republican_delegates": 28,
+        "democrat_delegates": 18,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Arizona" : {
-            "state_id" : 3,
-            "name" : "Arizona",
-            "election_date" : "8-28-18",
-            "republican_delegates" : 58,
-            "democratic_delegates" : 75,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 3,
+        "name": "Arizona",
+        "election_date": "18-8-28",
+        "republican_delegates": 58,
+        "democrat_delegates": 75,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Arkansas" : {
-            "state_id" : 4,
-            "name" : "Arkansas",
-            "election_date" : "3-1-18",
-            "republican_delegates" : 40,
-            "democratic_delegates" : 37,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 4,
+        "name": "Arkansas",
+        "election_date": "18-3-1",
+        "republican_delegates": 40,
+        "democrat_delegates": 37,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "California" : {
-            "state_id" : 5,
-            "name" : "California",
-            "election_date" : "6-5-18",
-            "republican_delegates" : 172,
-            "democratic_delegates" : 476,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 5,
+        "name": "California",
+        "election_date": "18-6-5",
+        "republican_delegates": 172,
+        "democrat_delegates": 476,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Colorado" : {
-            "state_id" : 6,
-            "name" : "Colorado",
-            "election_date" : "6-26-18",
-            "republican_delegates" : 37,
-            "democratic_delegates" : 77,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 6,
+        "name": "Colorado",
+        "election_date": "18-6-26",
+        "republican_delegates": 37,
+        "democrat_delegates": 77,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Connecticut" : {
-            "state_id" : 7,
-            "name" : "Connecticut",
-            "election_date" : "8-14-18",
-            "republican_delegates" : 28,
-            "democratic_delegates" : 65,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 7,
+        "name": "Connecticut",
+        "election_date": "18-4-5",
+        "republican_delegates": 28,
+        "democrat_delegates": 65,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Delaware" : {
-            "state_id" : 8,
-            "name" : "Delware",
-            "election_date" : "9-6-18",
-            "republican_delegates" : 16,
-            "democratic_delegates" : 27,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 8,
+        "name": "Delware",
+        "election_date": "18-9-6",
+        "republican_delegates": 16,
+        "democrat_delegates": 27,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "District of Columbia" : {
-            "state_id" : 9,
-            "name" : "District of Columbia",
-            "election_date" : "6-19-18",
-            "republican_delegates" : 19,
-            "democratic_delegates" : 37,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 9,
+        "name": "District of Columbia",
+        "election_date": "18-6-19",
+        "republican_delegates": 19,
+        "democrat_delegates": 37,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Florida" : {
-            "state_id" : 10,
-            "name" : "Florida",
-            "election_date" : "8-28-2018",
-            "republican_delegates" : 99,
-            "democratic_delegates" : 238,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 10,
+        "name": "Florida",
+        "election_date": "18-8-28",
+        "republican_delegates": 99,
+        "democrat_delegates": 238,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Georgia" : {
-            "state_id" : 11,
-            "name" : "Georgia",
-            "election_date" : "5-22-2018",
-            "republican_delegates" : 76,
-            "democratic_delegates" : 112,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 11,
+        "name": "Georgia",
+        "election_date": "18-5-22",
+        "republican_delegates": 76,
+        "democrat_delegates": 112,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Hawaii" : {
-            "state_id" : 12,
-            "name" : "Hawaii",
-            "election_date" : "8-11-2018",
-            "republican_delegates" : 19,
-            "democratic_delegates" : 31,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 12,
+        "name": "Hawaii",
+        "election_date": "18-8-11",
+        "republican_delegates": 19,
+        "democrat_delegates": 31,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Idaho" : {
-            "state_id" : 13,
-            "name" : "Idaho",
-            "election_date" : "5-15-18",
-            "republican_delegates" : 32,
-            "democratic_delegates" : 24,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 13,
+        "name": "Idaho",
+        "election_date": "18-5-15",
+        "republican_delegates": 32,
+        "democrat_delegates": 24,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Illinois" : {
-            "state_id" : 14,
-            "name" : "Illinois",
-            "election_date" : "3-20-2018",
-            "republican_delegates" : 69,
-            "democratic_delegates" : 190,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 14,
+        "name": "Illinois",
+        "election_date": "18-3-20",
+        "republican_delegates": 69,
+        "democrat_delegates": 190,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Indiana" : {
-            "state_id" : 15,
-            "name" : "Indiana",
-            "election_date" : "5-8-18",
-            "republican_delegates" : 57,
-            "democratic_delegates" : 79,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 15,
+        "name": "Indiana",
+        "election_date": "18-5-8",
+        "republican_delegates": 57,
+        "democrat_delegates": 79,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Iowa" : {
-            "state_id" : 16,
-            "name" : "Iowa",
-            "election_date" : "6-5-2018",
-            "republican_delegates" : 30,
-            "democratic_delegates" : 54,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 16,
+        "name": "Iowa",
+        "election_date": "18-6-5",
+        "republican_delegates": 30,
+        "democrat_delegates": 54,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Kansas" : {
-            "state_id" : 17,
-            "name" : "Kansas",
-            "election_date" : "8-7-2018",
-            "republican_delegates" : 172,
-            "democratic_delegates" : 37,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 17,
+        "name": "Kansas",
+        "election_date": "18-8-7",
+        "republican_delegates": 172,
+        "democrat_delegates": 37,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Kentucky" : {
-            "state_id" : 18,
-            "name" : "Kentucky",
-            "election_date" : "5-22-2018",
-            "republican_delegates" : 46,
-            "democratic_delegates" : 53,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 18,
+        "name": "Kentucky",
+        "election_date": "18-5-22",
+        "republican_delegates": 46,
+        "democrat_delegates": 53,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Louisiana" : {
-            "state_id" : 19,
-            "name" : "Louisiana",
-            "election_date" : "11-6-2018",
-            "republican_delegates" : 46,
-            "democratic_delegates" : 61,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 19,
+        "name": "Louisiana",
+        "election_date": "18-11-6",
+        "republican_delegates": 46,
+        "democrat_delegates": 61,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Maine" : {
-            "state_id" : 20,
-            "name" : "Maine",
-            "election_date" : "6-12-2018",
-            "republican_delegates" : 23,
-            "democratic_delegates" : 30,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 20,
+        "name": "Maine",
+        "election_date": "18-6-12",
+        "republican_delegates": 23,
+        "democrat_delegates": 30,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Maryland" : {
-            "state_id" : 21,
-            "name" : "Maryland",
-            "election_date" : "6-26-18",
-            "republican_delegates" : 38,
-            "democratic_delegates" : 105,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 21,
+        "name": "Maryland",
+        "election_date": "18-6-26",
+        "republican_delegates": 38,
+        "democrat_delegates": 105,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Massachusetts" : {
-            "state_id" : 22,
-            "name" : "Massachusetts",
-            "election_date" : "9-4-18",
-            "republican_delegates" : 42,
-            "democratic_delegates" : 121,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 22,
+        "name": "Massachusetts",
+        "election_date": "18-9-4",
+        "republican_delegates": 42,
+        "democrat_delegates": 121,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Michigan" : {
-            "state_id" : 23,
-            "name" : "Michigan",
-            "election_date" : "8-7-18",
-            "republican_delegates" : 59,
-            "democratic_delegates" : 152,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 23,
+        "name": "Michigan",
+        "election_date": "18-8-7",
+        "republican_delegates": 59,
+        "democrat_delegates": 152,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Minnesota" : {
-            "state_id" : 24,
-            "name" : "Minnesota",
-            "election_date" : "8-14-18",
-            "republican_delegates" : 38,
-            "democratic_delegates" : 94,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 24,
+        "name": "Minnesota",
+        "election_date": "18-8-14",
+        "republican_delegates": 38,
+        "democrat_delegates": 94,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Mississippi" : {
-            "state_id" : 25,
-            "name" : "Mississippi",
-            "election_date" : "6-5-18",
-            "republican_delegates" : 40,
-            "democratic_delegates" : 41,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 25,
+        "name": "Mississippi",
+        "election_date": "18-6-5",
+        "republican_delegates": 40,
+        "democrat_delegates": 41,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Missouri" : {
-            "state_id" : 26,
-            "name" : "Missouri",
-            "election_date" : "8-7-2018",
-            "republican_delegates" : 52,
-            "democratic_delegates" : 88,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 26,
+        "name": "Missouri",
+        "election_date": "18-8-7",
+        "republican_delegates": 52,
+        "democrat_delegates": 88,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Montana" : {
-            "state_id" : 27,
-            "name" : "Montana",
-            "election_date" : "6-5-18",
-            "republican_delegates" : 27,
-            "democratic_delegates" : 22,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 27,
+        "name": "Montana",
+        "election_date": "18-6-5",
+        "republican_delegates": 27,
+        "democrat_delegates": 22,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Nebraska" : {
-            "state_id" : 28,
-            "name" : "Nebraska",
-            "election_date" : "5-15-2018",
-            "republican_delegates" : 36,
-            "democratic_delegates" : 31,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 28,
+        "name": "Nebraska",
+        "election_date": "18-5-15",
+        "republican_delegates": 36,
+        "democrat_delegates": 31,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Nevada" : {
-            "state_id" : 29,
-            "name" : "Nevada",
-            "election_date" : "6-12-18",
-            "republican_delegates" : 30,
-            "democratic_delegates" : 31,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 29,
+        "name": "Nevada",
+        "election_date": "18-6-12",
+        "republican_delegates": 30,
+        "democrat_delegates": 31,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "New Hampshire" : {
-            "state_id" : 30,
-            "name" : "New Hampshire",
-            "election_date" : "9-11-18",
-            "republican_delegates" : 23,
-            "democratic_delegates" : 32,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 30,
+        "name": "New Hampshire",
+        "election_date": "18-9-11",
+        "republican_delegates": 23,
+        "democrat_delegates": 32,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "New Jersey" : {
-            "state_id" : 31,
-            "name" : "New Jersey",
-            "election_date" : "6-5-18",
-            "republican_delegates" : 51,
-            "democratic_delegates" : 126,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 31,
+        "name": "New Jersey",
+        "election_date": "18-6-5",
+        "republican_delegates": 51,
+        "democrat_delegates": 126,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "New Mexico" : {
-            "state_id" : 32,
-            "name" : "New Mexico",
-            "election_date" : "6-5-18",
-            "republican_delegates" : 24,
-            "democratic_delegates" : 38,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 32,
+        "name": "New Mexico",
+        "election_date": "18-6-5",
+        "republican_delegates": 24,
+        "democrat_delegates": 38,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "New York" : {
-            "state_id" : 33,
-            "name" : "New York",
-            "election_date" : "6-26-18",
-            "republican_delegates" : 95,
-            "democratic_delegates" : 277,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 33,
+        "name": "New York",
+        "election_date": "18-6-26",
+        "republican_delegates": 95,
+        "democrat_delegates": 277,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "North Carolina" : {
-            "state_id" : 34,
-            "name" : "North Carolina",
-            "election_date" : "5-8-18",
-            "republican_delegates" : 72,
-            "democratic_delegates" : 120,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 34,
+        "name": "North Carolina",
+        "election_date": "18-5-8",
+        "republican_delegates": 72,
+        "democrat_delegates": 120,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "North Dakota" : {
-            "state_id" : 35,
-            "name" : "North Dakota",
-            "election_date" : "6-12-18",
-            "republican_delegates" : 28,
-            "democratic_delegates" : 19,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 35,
+        "name": "North Dakota",
+        "election_date": "18-6-12",
+        "republican_delegates": 28,
+        "democrat_delegates": 19,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Ohio" : {
-            "state_id" : 36,
-            "name" : "Ohio",
-            "election_date" : "5-8-18",
-            "republican_delegates" : 66,
-            "democratic_delegates" : 165,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 36,
+        "name": "Ohio",
+        "election_date": "18-5-8",
+        "republican_delegates": 66,
+        "democrat_delegates": 165,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Oklahoma" : {
-            "state_id" : 37,
-            "name" : "Oklahoma",
-            "election_date" : "6-26-18",
-            "republican_delegates" : 43,
-            "democratic_delegates" : 42,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 37,
+        "name": "Oklahoma",
+        "election_date": "18-6-26",
+        "republican_delegates": 43,
+        "democrat_delegates": 42,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Oregon" : {
-            "state_id" : 38,
-            "name" : "Oregon",
-            "election_date" : "5-15-18",
-            "republican_delegates" : 28,
-            "democratic_delegates" : 64,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 38,
+        "name": "Oregon",
+        "election_date": "18-5-15",
+        "republican_delegates": 28,
+        "democrat_delegates": 64,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Pennsylvania" : {
-            "state_id" : 39,
-            "name" : "Pennsylvania",
-            "election_date" : "5-15-18",
-            "republican_delegates" : 71,
-            "democratic_delegates" : 181,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 39,
+        "name": "Pennsylvania",
+        "election_date": "18-5-15",
+        "republican_delegates": 71,
+        "democrat_delegates": 181,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Rhode Island" : {
-            "state_id" : 40,
-            "name" : "Rhode Island",
-            "election_date" : "9-12-18",
-            "republican_delegates" : 19,
-            "democratic_delegates" : 31,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 40,
+        "name": "Rhode Island",
+        "election_date": "18-9-12",
+        "republican_delegates": 19,
+        "democrat_delegates": 31,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "South Carolina" : {
-            "state_id" : 41,
-            "name" : "South Carolina",
-            "election_date" : "6-12-18",
-            "republican_delegates" : 50,
-            "democratic_delegates" : 57,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 41,
+        "name": "South Carolina",
+        "election_date": "18-6-12",
+        "republican_delegates": 50,
+        "democrat_delegates": 57,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "South Dakota" : {
-            "state_id" : 42,
-            "name" : "South Dakota",
-            "election_date" : "6-5-18",
-            "republican_delegates" : 29,
-            "democratic_delegates" : 20,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 42,
+        "name": "South Dakota",
+        "election_date": "18-6-5",
+        "republican_delegates": 29,
+        "democrat_delegates": 20,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Tennessee" : {
-            "state_id" : 43,
-            "name" : "Tennessee",
-            "election_date" : "8-2-18",
-            "republican_delegates" : 58,
-            "democratic_delegates" : 77,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 43,
+        "name": "Tennessee",
+        "election_date": "18-8-2",
+        "republican_delegates": 58,
+        "democrat_delegates": 77,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Texas" : {
-            "state_id" : 44,
-            "name" : "Texas",
-            "election_date" : "3-6-18",
-            "republican_delegates" : 155,
-            "democratic_delegates" : 237,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 44,
+        "name": "Texas",
+        "election_date": "18-3-6",
+        "republican_delegates": 155,
+        "democrat_delegates": 237,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Utah" : {
-            "state_id" : 45,
-            "name" : "Utah",
-            "election_date" : "6-26-18",
-            "republican_delegates" : 40,
-            "democratic_delegates" : 28,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 45,
+        "name": "Utah",
+        "election_date": "18-6-26",
+        "republican_delegates": 40,
+        "democrat_delegates": 28,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Vermont" : {
-            "state_id" : 46,
-            "name" : "Vermont",
-            "election_date" : "8-14-18",
-            "republican_delegates" : 16,
-            "democratic_delegates" : 23,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 46,
+        "name": "Vermont",
+        "election_date": "18-8-14",
+        "republican_delegates": 16,
+        "democrat_delegates": 23,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Virginia" : {
-            "state_id" : 47,
-            "name" : "Virginia",
-            "election_date" : "6-12-18",
-            "republican_delegates" : 49,
-            "democratic_delegates" : 112,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 47,
+        "name": "Virginia",
+        "election_date": "18-6-12",
+        "republican_delegates": 49,
+        "democrat_delegates": 112,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Washington" : {
-            "state_id" : 48,
-            "name" : "Washington",
-            "election_date" : "8-7-18",
-            "republican_delegates" : 44,
-            "democratic_delegates" : 102,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 48,
+        "name": "Washington",
+        "election_date": "18-8-7",
+        "republican_delegates": 44,
+        "democrat_delegates": 102,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "West Virginina" : {
-            "state_id" : 49,
-            "name" : "West Virginia",
-            "election_date" : "5-8-18",
-            "republican_delegates" : 34,
-            "democratic_delegates" : 35,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 49,
+        "name": "West Virginia",
+        "election_date": "18-5-8",
+        "republican_delegates": 34,
+        "democrat_delegates": 35,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Wisconsin" : {
-            "state_id" : 50,
-            "name" : "Wisconsin",
-            "election_date" : "8-14-18",
-            "republican_delegates" : 42,
-            "democratic_delegates" : 89,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 50,
+        "name": "Wisconsin",
+        "election_date": "18-8-14",
+        "republican_delegates": 42,
+        "democrat_delegates": 89,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         },
-        "Wyoming" : {
-            "state_id" : 51,
-            "name" : "Wyoming",
-            "election_date" : "8-21-18",
-            "republican_delegates" : 29,
-            "democratic_delegates" : 17,
-            "registered_republicans" : 5225675,
-            "registered_democrats" : 7932373,
-            "partial_winnings" : true
+        {
+        "state_id": 51,
+        "name": "Wyoming",
+        "election_date": "18-8-21",
+        "republican_delegates": 29,
+        "democrat_delegates": 17,
+        "registered_republicans": 5225675,
+        "registered_democrats": 7932373,
+        "partial_winnings": true
         }
-    }
+    ]
 }
