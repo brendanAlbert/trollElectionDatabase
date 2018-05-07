@@ -1,4 +1,4 @@
-#candidates.py.py
+#candidates.py
 """Get candidates from candidates.csv and create 
    candidates.sql dataset.
 """
